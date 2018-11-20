@@ -58,9 +58,6 @@ classifier.fit_generator(
                         validation_data=test_set,
                         validation_steps=13800)
 
-from keras.utils.np_utils import to_categorical
-
-categorical_labels = to_categorical(int_labels, num_classes=None)
 
 
                         
